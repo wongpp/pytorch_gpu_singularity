@@ -1,6 +1,5 @@
 Bootstrap: docker
 
-#Python version: 3.7 
 From: continuumio/anaconda3:2019.03
 
 %post
