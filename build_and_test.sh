@@ -1,5 +1,5 @@
-VER=1.3.0
-IMAGE_NAME=/tmp/pytorch_gpu_${VER}.simg
+VER=1.4.0
+IMAGE_NAME=./pytorch_gpu_${VER}.simg
 
 #build
 sudo singularity build ${IMAGE_NAME} ./Singularity.${VER}
